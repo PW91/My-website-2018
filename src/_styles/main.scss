@@ -37,13 +37,13 @@ body {
 
 .bolded {
   font-family: FuturaBold;
-  letter-spacing: 0.07em;
-  font-size: 1.3em;
+  letter-spacing: 0.07vw;
+  font-size: 6vw;
   //color: #2424d6;
 }
 
 .frame {
-  border: 50px solid #ffd800;
+  border: 3vw solid #ffd800;
 
   width: 100%;
   height: 100vh;
@@ -58,8 +58,8 @@ body {
 }
 
 .center-column {
-  max-width: 85%;
-  margin-left: 15%;
+  max-width: 85vw;
+  margin-left: 15vw;
 }
 
 .right-column {
@@ -67,9 +67,9 @@ body {
 
   width: 50%;
 
-  top: 50px;
-  right: 50px;
-  bottom: 50px;
+  top: 3vw;
+  right: 3vw;
+  bottom: 3vw;
   overflow: hidden;
 }
 
@@ -106,7 +106,7 @@ body {
 
   &.for-skills {
     background-color: #587058;
-    padding: 50px;
+    padding: 4vw;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -118,7 +118,7 @@ body {
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
-  left: 100px;
+  left: 5vw;
   &-list {
     padding: 0;
     margin: 0;
@@ -126,9 +126,9 @@ body {
   }
 
   &-item {
-    font-size: 30px;
+    font-size: 1.5vw;
     padding: 0;
-    margin: 20px 0;
+    margin: 1vw 0;
 
     a {
       text-decoration: none;
@@ -142,18 +142,14 @@ body {
 }
 
 .nav-dot {
-  width: 10px;
-  height: 10px;
+  width: 0.5vw;
+  height: 0.5vw;
   border-radius: 50%;
   background-color: black;
   position: absolute;
-  left: -25px;
-  top: 32px;
+  left: -1.3vw;
+  top: 1.7vw;
   transition: top 300ms ease-in-out;
-}
-
-.inside-frame {
-  //padding: 50px;
 }
 
 .section {
@@ -164,53 +160,45 @@ body {
   align-items: center;
 }
 
-.center-wrap {
-  //border: 1px solid blue;
-}
-
-.text-wrap {
-}
-
 .h1 {
-  font-size: 5em;
-  line-height: 1em;
-  letter-spacing: 0.03em;
+  font-size: 4vw;
+  line-height: 3vw;
+  letter-spacing: 0.03vw;
 }
 
 .p {
-  line-height: 2em;
-  font-size: 1.2em;
-  letter-spacing: 0.03em;
-}
-
-.logos-wrap {
-  //border: 1px solid red;
+  line-height: 2vw;
+  font-size: 1vw;
+  letter-spacing: 0.03vw;
 }
 
 .form-fields-wrap {
   border: 1px solid black;
-  max-width: 450px;
-  padding: 25px 25px 0 25px;
+
+  padding: 1vw 1vw 0 1vw;
 }
 
 label {
-  margin-bottom: 5px;
+  margin-bottom: 0.3vw;
   display: block;
   font-family: FuturaNormal;
+  font-size: 1vw;
 }
 
 .form {
-  margin: 0 0 50px 0;
+  width: 100%;
+  margin: 0 0 3vw 0;
 }
 
 input,
 textarea {
   border: none;
   display: block;
-  margin: 0 0 30px 0;
+  margin: 0 0 2vw 0;
   font-family: FuturaNormal;
   width: 100%;
   resize: none;
+  font-size: 1vw;
 }
 
 input:focus,
@@ -223,22 +211,20 @@ input[type="submit"] {
   color: #fff;
   margin: 0;
   font-family: FuturaNormal;
-  padding: 10px 25px;
-  margin-top: 10px;
-  width: 450px;
+  padding: 1vw 2vw;
+  margin-top: 1vw;
 }
 
 .social-wrap {
-  max-width: 450px;
   display: flex;
   align-items: center;
 
   a {
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 1vw;
 
     img {
-      max-width: 40px;
+      max-width: 2.3vw;
     }
   }
 }
@@ -247,9 +233,9 @@ input[type="submit"] {
 }
 
 .team-img-wrap {
-  padding: 10px;
+  padding: 1vw;
   background-color: white;
-  max-width: 650px;
+  max-width: 30vw;
   display: block;
   position: relative;
 
@@ -296,40 +282,36 @@ input[type="submit"] {
 }
 
 .h2 {
-  font-size: 3em;
+  font-size: 3vw;
   margin: 0;
   color: white;
 }
 
 .h4 {
-  font-size: 1em;
-  margin: 10px 0 0 0;
+  font-size: 1vw;
+  margin: 0.6vw 0 0 0;
   color: black;
   font-family: FuturaBold;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03vw;
 }
 
 .coding-img-wrap {
-  padding: 10px;
+  padding: 0.5vw;
   background-color: white;
-  max-width: 200px;
-  margin-right: 50px;
+  max-width: 10vw;
+  margin-right: 3vw;
 }
 
 .section-contact {
-  max-width: 450px;
 }
 
 .section-about {
-  max-width: 450px;
 }
 
 .section-exp {
-  max-width: 450px;
 }
 
 .section-skills {
-  max-width: 450px;
 }
 
 .time-wrap {
@@ -337,7 +319,7 @@ input[type="submit"] {
 }
 
 .stripe {
-  width: 5px;
+  width: 0.3vw;
   height: 75vh;
   background-color: white;
   background-image: linear-gradient(#e86850 0%, white 10%);
@@ -345,8 +327,8 @@ input[type="submit"] {
 
 .circle {
   background-color: white;
-  width: 20px;
-  height: 20px;
+  width: 1vw;
+  height: 1vw;
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -359,7 +341,7 @@ input[type="submit"] {
 
   .h5 {
     font-family: HelloWorld;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.05vw;
   }
 }
 
@@ -387,7 +369,7 @@ input[type="submit"] {
 }
 
 .h3 {
-  font-size: 2em;
+  font-size: 1.8vw;
   margin: 0;
   color: white;
 }
@@ -396,28 +378,28 @@ input[type="submit"] {
   position: absolute;
   right: 200%;
   top: 50%;
-  width: 400px;
+  width: 30vw;
   text-align: right;
   color: white;
   transform: translateY(-50%);
 }
 
 .h5 {
-  font-size: 1.8em;
+  font-size: 1.3vw;
   margin: 0;
   color: black;
   font-family: FuturaBold;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.01vw;
 }
 
 .job-logo {
-  margin-bottom: 5px;
-  max-width: 75px;
+  margin-bottom: 0.3vw;
+  max-width: 4vw;
 }
 
 .contact-img {
   position: absolute;
-  bottom: 0;
+  top: -12vw;
   right: 0;
   width: 100%;
 }
@@ -425,7 +407,7 @@ input[type="submit"] {
 .italic {
   font-style: italic;
   font-family: FuturaNormal;
-  font-size: 0.8em;
+  font-size: 0.8vw;
 }
 
 .single-logo-wrap {
@@ -433,14 +415,14 @@ input[type="submit"] {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 0;
-  height: 100px;
+  margin: 1vw 0;
+  height: 5vw;
 }
 
 .logos-wrap {
-  margin: 50px 0;
+  margin: 2vw 0;
   display: flex;
-  width: 450px;
+
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -484,4 +466,13 @@ input[type="submit"] {
   &:hover {
     background-color: lighten(#587058, 3%);
   }
+}
+
+.section-inside-wrap {
+  max-width: 22vw;
+}
+
+.copyright-wrap {
+  margin-top: 3vw;
+  margin-bottom: 10vw;
 }

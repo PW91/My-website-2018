@@ -41,7 +41,7 @@ $(() => {
         removeClasses();
         setClassList(forContactEl);
         setClassList(contactNavEl);
-        moveDot("250px");
+        moveDot("12.6vw");
       }
     } else if (scroll > expSectionEl.offsetTop) {
       if (scrollingFlag !== "exp") {
@@ -49,7 +49,7 @@ $(() => {
         removeClasses();
         setClassList(forSkillsEl);
         setClassList(skillsNavEl);
-        moveDot("197px");
+        moveDot("9.85vw");
       }
     } else if (scroll > aboutSectionEl.offsetTop) {
       if (scrollingFlag !== "skills") {
@@ -57,7 +57,7 @@ $(() => {
         removeClasses();
         setClassList(forExpEl);
         setClassList(expNavEl);
-        moveDot("142px");
+        moveDot("7.15vw");
       }
     } else if (scroll > helloSectionEl.offsetTop) {
       if (scrollingFlag !== "about") {
@@ -65,7 +65,7 @@ $(() => {
         removeClasses();
         setClassList(forAboutEl);
         setClassList(aboutNavEl);
-        moveDot("88px");
+        moveDot("4.45vw");
       }
     } else {
       if (scrollingFlag !== "hello") {
@@ -73,7 +73,7 @@ $(() => {
         removeClasses();
         setClassList(forHelloEl);
         setClassList(helloNavEl);
-        moveDot("32px");
+        moveDot("1.75vw");
       }
     }
   });
