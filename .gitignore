@@ -1,6 +1,13 @@
 node_modules
 *.log
-build
 tmp
 .grunt
 .DS_Store
+src
+.babelrc
+.editorconfig
+.yo-rc.json
+.gulpfile.babel.js
+,package-json.lock
+.package-json
+gulp
