@@ -492,3 +492,49 @@ input[type="submit"] {
   margin-top: 3vw;
   margin-bottom: 10vw;
 }
+
+.small-circle {
+  width: 0.5vw;
+  height: 0.5vw;
+  background-color: #e86850;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay {
+  top: -100vh;
+  height: 100vh;
+  left: 0;
+  width: 100vw;
+  position: fixed;
+  background-color: black;
+  opacity: 0.9;
+  z-index: 3;
+  align-items: center;
+  justify-content: center;
+  transition: all 300ms ease-in-out;
+  display: flex;
+
+  &.active {
+    top: 0;
+  }
+}
+
+.blur {
+  &.active {
+    filter: blur(5px);
+  }
+}
+
+.overlay-text-wrap {
+  text-align: center;
+}
+
+.overlay-text {
+  line-height: 4vw;
+  font-size: 3vw;
+  color: white;
+}
