@@ -3,11 +3,6 @@
 {% block content %}
 <div class='frame'></div>
 <div class='inside-frame'>
-    <div class='overlay'>
-      <div class='overlay-text-wrap'>
-        <h1 class='h1 overlay-text'></h1>
-      </div>
-    </div>
     <div class='blur'>
     <div class='left-column'>
         <nav class='nav'>
@@ -58,28 +53,28 @@
                         <img src='images/ikea_logo.png' class='logo '/>
                     </div>
                     <div class='single-logo-wrap'>
-                        <img src='images/kp_logo.jpg' class='logo'/>
+                        <img src='images/kp_logo.png' class='logo'/>
                     </div>
                     <div class='single-logo-wrap'>
-                        <img src='images/premiummobile_logo.jpg' class='logo'/>
+                        <img src='images/premiummobile_logo.png' class='logo'/>
                     </div>
                     <div class='single-logo-wrap'>
-                        <img src='images/moiess_logo.jpg' class='logo '/>
+                        <img src='images/moiess_logo.png' class='logo '/>
                     </div>
                     <div class='single-logo-wrap'>
-                        <img src='images/textilone_logo.jpg' class='logo '/>
+                        <img src='images/textilone_logo.png' class='logo '/>
                     </div>
                     <div class='single-logo-wrap'>
-                        <img src='images/newonce_logo.jpg' class='logo'/>
+                        <img src='images/newonce_logo.png' class='logo'/>
                     </div>
                     <div class='single-logo-wrap'>
                         <img src='images/muscat_logo.png' class='logo '/>
                     </div>
                     <div class='single-logo-wrap'>
-                        <img src='images/parkofpoland_logo.jpg' class='logo'/>
+                        <img src='images/parkofpoland_logo.png' class='logo'/>
                     </div>
                     <div class='single-logo-wrap'>
-                        <img src='images/kriskej_logo.jpg' class='logo'/>
+                        <img src='images/kriskej_logo.png' class='logo'/>
                     </div>
                 </div>
             </div>
@@ -127,20 +122,13 @@
             <div class='section-inside-wrap'>
                 <div class='text-wrap'>
                     <p class='p'>
-                        Interested in cooperation or in hiring me?<br/>Please feel free to send me a massage.
+                        Interested in cooperation or in hiring me?<br/>Please, feel free to contact me via email or phone:
                     </p>
-                </div>
-                <form class='form'>
-                    <div class="form-fields-wrap">
-                        <label for='name'>Name:</label>
-                        <input type="text" name="name" placeholder="Your name" class='name-input'>
-                        <label for='email'>Email:</label>
-                        <input type="text" name="email" placeholder="Your email address" class='email-input'>
-                        <label for='message'>Message:</label>
-                        <textarea name="message" rows="10" cols="30" placeholder="Your message" class='message-input'></textarea> 
                     </div>
-                    <input type="submit" value="Send" class='submit-btn'>      
-                </form>
+<div class='contact-text-wrap'>
+                    <h1 class='h1 h1-contact'>+48 600 935 732</h1>
+                    <h1 class='h1 h1-contact'><a href='mailto:wieteska.przemyslaw@gmail.com' class='mail'>wieteska.przemyslaw@gmail.com</a></h1>
+                </div>
                 <div class='text-wrap'>
                     <p class='p'>You can also find me on:</p>
                 </div>
@@ -222,7 +210,7 @@
             <a href='#' class='coding-link'>
                 <div class='coding-wrap'>
                     <div class='coding-img-wrap'>
-                        <img src='images/coding-1.jpg' class='coding-img'/>
+                        <img src='images/coding-1.png' class='coding-img'/>
                     </div>
                     <div class='coding-text-wrap'>
                         <h2 class='h2'>Absence Calendar</h2>
@@ -235,7 +223,7 @@
             <a href='#' class='coding-link'>
                 <div class='coding-wrap'>
                     <div class='coding-img-wrap'>
-                        <img src='images/coding-2.jpg' class='coding-img'/>
+                        <img src='images/coding-2.png' class='coding-img'/>
                     </div>
                     <div class='coding-text-wrap'>
                         <h2 class='h2'>Natural Lines</h2>
@@ -248,7 +236,7 @@
             <a href='https://pw91.github.io/Furry-game/' target='_blank' class='coding-link'>
                 <div class='coding-wrap'>
                     <div class='coding-img-wrap'>
-                        <img src='images/coding-3.jpg' class='coding-img'/>
+                        <img src='images/coding-3.png' class='coding-img'/>
                     </div>
                     <div class='coding-text-wrap'>
                         <h2 class='h2'>Furry Game</h2>
