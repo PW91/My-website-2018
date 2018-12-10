@@ -12,9 +12,12 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <title>Przemyslaw codes</title>
-    <meta name="description" content="A new Yeogurt application"/>
+    <meta name="description" content="Hello. I am Przemyslaw. I like to code."/>
+    <meta name="author" content="Przemyslaw Wieteska">
+    <meta name="keywords" content="Developer, Development, Code, Coding, HTML, CSS, JavaScript, React, Redux, Firebase, Mongo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="{{baseUrl}}styles/main.css"/>
+    <link rel="shortcut icon" href="favicon.ico">
     {% block stylesheets %}{% endblock %}
 
   </head>
