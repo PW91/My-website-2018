@@ -30,7 +30,6 @@
 html,
 body {
   font-family: FuturaNormal;
-  scroll-behavior: smooth;
 }
 
 .bolded {
@@ -194,6 +193,10 @@ body {
   max-width: 30vw;
   display: block;
   position: relative;
+
+  &.only-mobile {
+    display: none;
+  }
 
   &.bisons {
     top: -75px;
@@ -538,7 +541,7 @@ body {
   }
 
   .stripe {
-    height: 60vh;
+    height: 75vh;
     width: 1vw;
   }
 
@@ -554,11 +557,31 @@ body {
 
   .h3 {
     font-size: 4vw;
-    left: 150%;
+    left: -300%;
   }
 
   .time-desc-wrap {
-    right: 150%;
+    right: 160%;
+
+    &.for-1991 {
+      top: -50%;
+    }
+
+    &.for-1993 {
+      top: -80%;
+    }
+
+    &.for-2000 {
+      top: -40%;
+    }
+
+    &.for-2013 {
+      top: -140%;
+    }
+
+    &.for-2017 {
+      top: -170%;
+    }
   }
 
   .h5 {
@@ -575,7 +598,7 @@ body {
 
   .single-logo-wrap {
     width: 50%;
-    height: 13vw;
+    height: 20vw;
   }
 
   .logo {
@@ -594,17 +617,22 @@ body {
     margin: 10vw 0;
   }
 
-  .team-img-wrap.bisons {
-    top: 0;
-    left: -7vw;
-    max-width: 40vw;
-    margin-top: 10vw;
-  }
+  .team-img-wrap {
+    max-width: 25vw;
+    margin: 5vw 0;
+    &.only-mobile {
+      display: block;
+    }
 
-  .team-img-wrap.sap {
-    top: 0;
-    left: -7vw;
-    max-width: 40vw;
+    &.bisons {
+      left: -12vw;
+      top: 0;
+    }
+
+    &.sap {
+      left: -12vw;
+      top: 0;
+    }
   }
 
   .fun.active.for-hello {
@@ -612,7 +640,7 @@ body {
   }
 
   .fun.active.for-about {
-    left: 15vw;
+    left: 25vw;
   }
 
   .fun.for-exp {
@@ -620,7 +648,7 @@ body {
   }
 
   .fun.active.for-exp {
-    left: 15vw;
+    left: 25vw;
   }
 
   .fun.for-skills {
@@ -628,7 +656,7 @@ body {
   }
 
   .fun.active.for-skills {
-    left: 15vw;
+    left: 25vw;
   }
 
   .fun.active.for-contact {
@@ -636,12 +664,12 @@ body {
   }
 
   .p {
-    font-size: 3vw;
-    line-height: 4vw;
+    font-size: 4vw;
+    line-height: 6vw;
   }
 
   .section-inside-wrap {
-    max-width: 40vw;
+    max-width: 50vw;
   }
 
   .contact-text-wrap {
@@ -672,7 +700,8 @@ body {
 
   .coding-wrap {
     display: block;
-    margin-bottom: 3vw;
+    margin-bottom: 5vw;
+    max-width: 35vw;
   }
 
   .coding-img-wrap {
@@ -685,14 +714,15 @@ body {
   }
 
   .h2 {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
   .h4 {
     font-size: 2.5vw;
+    margin: 1vw 0;
 
     .italic {
-      font-size: 2vw;
+      font-size: 3vw;
     }
   }
 }
