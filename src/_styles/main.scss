@@ -390,26 +390,8 @@ body {
 .logo {
   width: 85%;
 
-  &.react {
-  }
-
   &.react-native {
     width: 70%;
-  }
-
-  &.redux {
-  }
-
-  &.node {
-  }
-
-  &.express {
-  }
-
-  &.keystone {
-  }
-
-  &.mongodb {
   }
 
   &.firebase {
@@ -461,12 +443,6 @@ body {
 
   &.active {
     top: 0;
-  }
-}
-
-.blur {
-  &.active {
-    filter: blur(5px);
   }
 }
 
@@ -637,7 +613,6 @@ body {
   }
 
   .all-team-wrap {
-    border: 1px solid red;
     height: 97vw;
     position: relative;
     left: -10vw;
@@ -647,9 +622,6 @@ body {
     margin: 2vh 0;
     max-width: 25vw;
     position: static;
-
-    &.team-1 {
-    }
   }
 
   .fun {
@@ -662,9 +634,6 @@ body {
 
   .fun.active.for-about {
     left: 25vw;
-  }
-
-  .fun.for-exp {
   }
 
   .fun.active.for-exp {
@@ -740,9 +709,6 @@ body {
 
   .contact-img {
     top: -10vw;
-  }
-
-  .coding-text-wrap {
   }
 
   .h2 {
