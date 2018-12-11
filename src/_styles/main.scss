@@ -73,20 +73,19 @@
   font-size: 1vw;
   letter-spacing: 0.03vw;
 
-  .bolded {
+  .bold {
     font-size: 1.1vw;
     letter-spacing: 0.03vw;
   }
 }
 
-.bolded {
+.bold {
   font-family: FuturaBold;
   letter-spacing: 0.07vw;
   font-size: 6vw;
 }
 
-.italic {
-  //font-style: italic;
+.error {
   color: #e23131;
   font-family: FuturaNormal;
 }
@@ -508,13 +507,13 @@ body {
     font-size: 4vw;
     line-height: 6vw;
 
-    .bolded {
+    .bold {
       font-size: 4.2vw;
       letter-spacing: 0.03vw;
     }
   }
 
-  .bolded {
+  .bold {
     font-size: 8vw;
   }
 
