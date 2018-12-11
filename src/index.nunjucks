@@ -199,17 +199,19 @@
             </div>
         </div>
         <div class='fun for-exp'>
-            <div class='team-img-wrap sap'>
-                <img src='images/sap_team.png' class='sap team-img'/>
-            </div>
-            <div class='team-img-wrap sap only-mobile'>
-                <img src='images/sap_me.png' class='sap team-img'/>
-            </div>
-            <div class='team-img-wrap bisons'>
-                <img src='images/bisons_team.png' class='bisons team-img'/>
-            </div>
-            <div class='team-img-wrap bisons only-mobile'>
-                <img src='images/bisons_me.png' class='bisons team-img'/>
+            <div class='all-team-wrap'>
+                <div class='team-img-wrap team-1'>
+                    <img src='images/sap_team.png' class='team-img'/>
+                </div>
+                <div class='team-img-wrap team-2'>
+                    <img src='images/sap_me.png' class='team-img'/>
+                </div>
+                <div class='team-img-wrap team-3'>
+                    <img src='images/bisons_team.png' class='team-img'/>
+                </div>
+                <div class='team-img-wrap team-4'>
+                    <img src='images/bisons_me.png' class='team-img'/>
+                </div>
             </div>
         </div>
         <div class='fun for-skills'>
