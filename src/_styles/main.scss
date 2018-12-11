@@ -99,7 +99,7 @@ body {
     padding: 4vw;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
   }
 }
@@ -188,13 +188,13 @@ body {
 }
 
 .all-team-wrap {
-  height: 47vw;
+  height: 80vh;
 }
 
 .team-img-wrap {
   padding: 1vw;
   background-color: white;
-  max-width: 20vw;
+  max-width: 18vw;
   display: block;
   position: relative;
 
@@ -202,17 +202,17 @@ body {
   }
 
   &.team-2 {
-    top: -5vw;
+    top: -10vh;
     left: 25%;
   }
 
   &.team-3 {
-    top: -10vw;
+    top: -20vh;
     right: 25%;
   }
 
   &.team-4 {
-    top: -15vw;
+    top: -30vh;
   }
 }
 
@@ -475,7 +475,7 @@ body {
 
 .h6 {
   font-size: 0.6vw;
-  line-height: 4vw;
+  line-height: 1vw;
 }
 
 @media (max-width: 1000px) {
@@ -640,10 +640,6 @@ body {
     left: 25vw;
   }
 
-  .fun.for-skills {
-    justify-content: center;
-  }
-
   .fun.active.for-skills {
     left: 25vw;
   }
@@ -685,6 +681,7 @@ body {
 
   .h6 {
     font-size: 2.5vw;
+    line-height: 4vw;
   }
 
   .coding-wrap {
