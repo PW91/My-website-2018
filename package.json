@@ -1,9 +1,8 @@
 {
-  "name": "No",
-  "version": "0.0.1",
-  "homepage": "http://przemyslaw.codes",
+  "name": "przemyslaw-codes",
+  "version": "1.0",
+  "homepage": "https://pw91.github.io/My-website-v2/",
   "dependencies": {
-    "jquery": "~3.1.1",
     "normalize.css": "~5.0.0"
   },
   "devDependencies": {
