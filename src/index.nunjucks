@@ -215,20 +215,20 @@
             </div>
         </div>
         <div class='slide slide-skills'>
-            <a href='#' class='coding-link'>
+            <a href='https://github.com/PW91/Team-task-organizer' target='_blank' class='coding-link'>
                 <div class='coding-wrap'>
                     <div class='coding-img-wrap'>
                         <img src='images/coding_1.png' class='coding-img'/>
                     </div>
                     <div class='coding-text-wrap'>
-                        <h2 class='h2'>Absence Calendar</h2>
+                        <h2 class='h2'>Team Task Organizer</h2>
                         <h4 class='h4'>
                         React, Redux, Firebase</h2>
-                        <h4 class='h4'><span class='error'>Coming soon!</span></h4>
+                        <h4 class='h4'><span class='error'>Only repo!</span></h4>
                     </div>
                 </div>
             </a>
-            <a href='https://pw91.github.io/natural-lines/' target='_blank' class='coding-link'>
+            <a href='https://pw91.github.io/Natural-lines/' target='_blank' class='coding-link'>
                 <div class='coding-wrap'>
                     <div class='coding-img-wrap'>
                         <img src='images/coding_2.png' class='coding-img'/>
