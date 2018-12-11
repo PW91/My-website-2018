@@ -269,7 +269,7 @@ body {
 }
 
 .stripe {
-  width: 0.3vw;
+  width: 0.5vw;
   height: 75vh;
   background-color: white;
   background-image: linear-gradient(#e86850 0%, white 10%);
@@ -277,13 +277,14 @@ body {
 
 .circle {
   background-color: white;
-  width: 1vw;
-  height: 1vw;
+  width: 2vw;
+  height: 2vw;
   border-radius: 50%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
+  border: 0.3vw solid #e86850;
 }
 
 .circle-1 {
@@ -509,8 +510,15 @@ body {
     top: 0;
     transform: none;
     z-index: 9999;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 100vw;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin-top: 20px;
   }
 
   .center-column {
@@ -519,11 +527,16 @@ body {
 
   .right-column {
     width: 60vw;
+    bottom: 0;
+    top: 0;
     overflow: visible;
   }
 
   .frame {
-    border-top-width: 8vw;
+    border-top-width: 60px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
   }
 
   .nav-dot {
@@ -532,22 +545,23 @@ body {
 
   .nav-item {
     display: inline-block;
-    margin: 2.6vw 0.5vw;
-    font-size: 3vw;
+    margin: 0 3px;
+    font-size: 1em;
   }
 
   .time-wrap {
-    right: 1vw;
+    right: -2vw;
   }
 
   .stripe {
     height: 75vh;
-    width: 1vw;
+    width: 1.5vw;
   }
 
   .circle {
-    width: 4vw;
-    height: 4vw;
+    width: 7vw;
+    height: 7vw;
+    border-width: 1vw;
   }
 
   .small-circle {
@@ -557,35 +571,35 @@ body {
 
   .h3 {
     font-size: 4vw;
-    left: -300%;
+    left: -250%;
   }
 
   .time-desc-wrap {
-    right: 160%;
+    right: 150%;
 
     &.for-1991 {
       top: -50%;
     }
 
     &.for-1993 {
-      top: -80%;
+      top: -60%;
     }
 
     &.for-2000 {
-      top: -40%;
+      top: -60%;
     }
 
     &.for-2013 {
-      top: -140%;
+      top: -150%;
     }
 
     &.for-2017 {
-      top: -170%;
+      top: -180%;
     }
   }
 
   .h5 {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
 
     .italic {
       font-size: 2vw;
@@ -618,21 +632,25 @@ body {
   }
 
   .team-img-wrap {
-    max-width: 25vw;
-    margin: 5vw 0;
+    max-width: 30vw;
+    margin: 1vh 0;
     &.only-mobile {
       display: block;
     }
 
     &.bisons {
-      left: -12vw;
+      left: -11vw;
       top: 0;
     }
 
     &.sap {
-      left: -12vw;
+      left: -11vw;
       top: 0;
     }
+  }
+
+  .fun {
+    margin-top: 30px;
   }
 
   .fun.active.for-hello {
@@ -700,21 +718,34 @@ body {
 
   .coding-wrap {
     display: block;
-    margin-bottom: 5vw;
-    max-width: 35vw;
+    margin: 0;
+    max-width: 26vw;
+    padding: 0;
+    position: relative;
+    left: 2vw;
   }
 
   .coding-img-wrap {
-    max-width: 25vw;
+    max-width: 100%;
     padding: 1.5vw;
-    margin-bottom: 2vw;
+    margin: 0;
+    margin-bottom: 0;
+  }
+
+  .coding-text-wrap {
+    margin: 1vh 0 2vh 0;
+  }
+
+  .contact-img {
+    top: -10vw;
   }
 
   .coding-text-wrap {
   }
 
   .h2 {
-    font-size: 3vw;
+    font-size: 4vw;
+    max-width: 10vw;
   }
 
   .h4 {
