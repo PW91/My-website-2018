@@ -354,6 +354,10 @@ body {
 .job-logo {
   margin-bottom: 0.3vw;
   max-width: 4vw;
+
+  &.sap {
+    max-width: 4.5vw;
+  }
 }
 
 .contact-img {
@@ -503,7 +507,7 @@ body {
   }
 
   .center-column {
-    margin-left: 5vw;
+    margin-left: 4vw;
   }
 
   .right-column {
@@ -589,11 +593,16 @@ body {
 
   .job-logo {
     max-width: 8vw;
+
+    &.sap {
+      max-width: 10vw;
+    }
   }
 
   .single-logo-wrap {
     width: 50%;
     height: 20vw;
+    justify-content: flex-start;
   }
 
   .logo {
