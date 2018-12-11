@@ -25,15 +25,15 @@
         <section class='section section-about' id='about'>
             <div class='section-content-wrap'>
                 <div class='text-wrap'>
-                    <p class='p'>Since childhood I have been interested in eye-catching things and loved any form of their creation. As a kid I used to draw a lot. A bit later I started experimenting with computers. Despite the artistic soul, I was never scared of logical problems.</p>
-                    <p class='p'>I have been working in IT sector for almost six years. For the past two years I have been strictly focused on coding web and gaining deep knowledge about development methods, technologies and tools.</p>
+                    <p class='p'>Since childhood I have been interested in <span class='bolded'>eye-catching things</span> and loved any form of their <span class='bolded'>creation</span>. As a kid I used to draw a lot. A bit later I started experimenting with computers. Despite the <span class='bolded'>artistic soul</span>, I was never scared of <span class='bolded'>logical problems</span>.</p>
+                    <p class='p'>I have been working in <span class='bolded'>IT sector</span> for almost <span class='bolded'>six years</span>. For the past two years I have been strictly <span class='bolded'>focused on coding web</span> and gaining deep knowledge about development methods, technologies and tools.</p>
                 </div>
             </div>
         </section>
         <section class='section section-exp' id='exp'>
             <div class='section-content-wrap'>
                 <div class='text-wrap'>
-                    <p class='p'>Throughout my professional career, as a team member, I was involved in projects within both: huge multinational corporations and small local businesses. It means that I am not afraid of any form of critical situations – probably I have seen already most of them. Waterfall and scrum paradigms seem to be my lifelong friends.</p>
+                    <p class='p'>Throughout my professional career, as a team member, I was involved in projects within both: huge <span class='bolded'>multinational corporations</span> and small <span class='bolded'>local businesses</span>. It means that I am not afraid of any form of critical situations – probably I have seen already most of them. <span class='bolded'>Waterfall</span> and <span class='bolded'>scrum</span> paradigms seem to be my lifelong friends.</p>
                 </div>
                 <div class='logos-wrap'>
                     <div class='single-logo-wrap'>
@@ -78,7 +78,7 @@
         <section class='section section-skills' id='skills'>
             <div class='section-content-wrap'>
                 <div class='text-wrap'>
-                    <p class='p'>My main field of interest, in which I would like to constantly grow, is located in technology stack based on JavaScript language and NoSQL databases:</p>
+                    <p class='p'>My main field of interest, in which I would like to constantly grow, is located in technology stack based on <span class='bolded'>JavaScript</span> language and <span class='bolded'>NoSQL</span> databases:</p>
                 </div>
                 <div class='logos-wrap'>
                     <div class='single-logo-wrap'>
@@ -107,7 +107,7 @@
                     </div>
                 </div>
                 <div class='text-wrap'>
-                    <p class='p'>Of course, when client's reality clashes with my dreams, I can cope with coding also in technologies like PHP and WordPress. In extreme cases I do even design fixes, because Sketch and Photoshop are not foreign to me.</p>
+                    <p class='p'>Of course, when client's reality clashes with my dreams, I can cope with coding also in technologies like <span class='bolded'>PHP</span> and <span class='bolded'>WordPress</span>. In extreme cases I do even design fixes, because <span class='bolded'>Sketch</span> and <span class='bolded'>Photoshop</span> are not foreign to me.</p>
                     <p class='p'>On the right you can find three of my fun example projects.</p>
                 </div>
             </div>
@@ -115,7 +115,7 @@
         <section class='section section-contact' id='contact'>
             <div class='section-content-wrap'>
                 <div class='text-wrap'>
-                    <p class='p'>Interested in cooperation or in hiring me?<br/>Please, feel free to contact me via phone or email:</p>
+                    <p class='p'>Interested in cooperation or in hiring me?<br/>Please, feel free to <span class='bolded'>contact me</span> via phone or email:</p>
                 </div>
                 <div class='contact-text-wrap'>
                     <h1 class='h1 h1-contact'>+48 600 935 732</h1>
@@ -160,10 +160,10 @@
                 </div>
                 <div class='outside-circle outside-circle-2'>
                     <div class='inside-circle'></div>
-                    <div class='date-desc-wrap for-1993'>
+                    <div class='date-desc-wrap for-1994'>
                         <h5 class='h5'>first drawing</h5>
                     </div>
-                    <h3 class='h3'>1993</h3>
+                    <h3 class='h3'>1994</h3>
                 </div>
                 <div class='outside-circle outside-circle-3'>
                     <div class='inside-circle'></div>

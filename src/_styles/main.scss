@@ -49,10 +49,10 @@
 
 .h4 {
   font-size: 1vw;
-  margin: 0.6vw 0 0 0;
-  color: black;
+  margin: 0.3vw 0 0.5vw 0;
+  color: white;
   font-family: FuturaBold;
-  letter-spacing: 0.05vw;
+  letter-spacing: 0.1vw;
 }
 
 .h5 {
@@ -72,12 +72,23 @@
   line-height: 2vw;
   font-size: 1vw;
   letter-spacing: 0.03vw;
+
+  .bolded {
+    font-size: 1.1vw;
+    letter-spacing: 0.03vw;
+  }
 }
 
 .bolded {
   font-family: FuturaBold;
   letter-spacing: 0.07vw;
   font-size: 6vw;
+}
+
+.italic {
+  //font-style: italic;
+  color: #e23131;
+  font-family: FuturaNormal;
 }
 
 // GLOBAL:
@@ -294,8 +305,8 @@ body {
 }
 
 .inside-circle {
-  width: 0.4vw;
-  height: 0.4vw;
+  width: 0.5vw;
+  height: 0.5vw;
   background-color: #e86850;
   position: absolute;
   left: 50%;
@@ -496,6 +507,11 @@ body {
   .p {
     font-size: 4vw;
     line-height: 6vw;
+
+    .bolded {
+      font-size: 4.2vw;
+      letter-spacing: 0.03vw;
+    }
   }
 
   .bolded {
@@ -610,7 +626,7 @@ body {
       top: -50%;
     }
 
-    &.for-1993 {
+    &.for-1994 {
       top: -60%;
     }
 
