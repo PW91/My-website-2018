@@ -221,7 +221,7 @@
                         <img src='images/coding_1.png' class='coding-img'/>
                     </div>
                     <div class='coding-text-wrap'>
-                        <h2 class='h2'>Team Task Organizer</h2>
+                        <h2 class='h2'>Team Organizer</h2>
                         <h4 class='h4'>
                         React, Redux, Firebase</h2>
                         <h4 class='h4'><span class='error'>Only repo!</span></h4>
