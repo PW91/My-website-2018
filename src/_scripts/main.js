@@ -26,6 +26,8 @@ import SmoothScroll from "./smoothscroll";
   const slideSkillsEl = document.getElementsByClassName("slide-skills")[0];
   const slideContactEl = document.getElementsByClassName("slide-contact")[0];
 
+  const helloImgEl = document.getElementsByClassName("hello-img")[0];
+
   const deviceType = window.innerWidth > 991 ? "desktop" : "mobile";
   let scrollingDest = "";
 
@@ -76,6 +78,15 @@ import SmoothScroll from "./smoothscroll";
     }
   }
 
+  function moveHelloImg() {
+    const ratio = window.innerWidth / window.innerHeight;
+    if (ratio > 1.9) {
+      helloImgEl.style.bottom = ratio * -8 + "vh";
+    } else {
+      helloImgEl.style.bottom = "0";
+    }
+  }
+
   function dotAnimation(deviceType, positionDesktop, positionMobile) {
     switch (deviceType) {
       case "desktop":
@@ -116,7 +127,10 @@ import SmoothScroll from "./smoothscroll";
     contactNavEl.classList.remove("active");
   }
 
+  moveHelloImg();
+
   document.addEventListener("scroll", scrollingAnimation);
+  window.addEventListener("resize", moveHelloImg);
 
   const glightbox = GLightbox({ selector: "for-glightbox" });
   const smoothScroll = new SmoothScroll('a[href*="#"]');
