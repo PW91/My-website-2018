@@ -214,44 +214,49 @@
                 </a>
             </div>
         </div>
-        <div class='slide slide-skills'>
-            <a href='https://github.com/PW91/Team-tasks-organizer' target='_blank' class='coding-link'>
-                <div class='coding-wrap'>
-                    <div class='coding-img-wrap'>
-                        <img src='images/coding_1.png' class='coding-img'/>
-                    </div>
-                    <div class='coding-text-wrap'>
-                        <h2 class='h2'>Team Organizer</h2>
-                        <h4 class='h4'>
-                        React, Redux, Firebase</h2>
-                        <h4 class='h4'><span class='error'>run only on localhost</span></h4>
+        <div class='slide slide-skills'>     
+            <div class='coding-wrap'>
+                <div class='coding-img-wrap'>
+                    <img src='images/coding_1.png' class='coding-img'/>
+                </div>
+                <div class='coding-text-wrap'>
+                    <h2 class='h2'>Team Organizer</h2>
+                    <h4 class='h4'>
+                    React, Redux, Firebase</h4>
+                    <div class='coding-links-wrap'>
+                        <a href='https://team-tasks-organizer-pw91.herokuapp.com' target='_blank' class='coding-link'>Site</a>
+                        <a href='https://github.com/PW91/Team-tasks-organizer' target='_blank' class='coding-link'>Repo</a>
                     </div>
                 </div>
-            </a>
-            <a href='https://pw91.github.io/Natural-lines/' target='_blank' class='coding-link'>
-                <div class='coding-wrap'>
-                    <div class='coding-img-wrap'>
-                        <img src='images/coding_2.png' class='coding-img'/>
-                    </div>
-                    <div class='coding-text-wrap'>
-                        <h2 class='h2'>Natural Lines</h2>
-                        <h4 class='h4'>
-                        HTML, CSS, Webflow</h2>
+            </div>
+            <div class='coding-wrap'>
+                <div class='coding-img-wrap'>
+                    <img src='images/coding_2.png' class='coding-img'/>
+                </div>
+                <div class='coding-text-wrap'>
+                    <h2 class='h2'>Natural Lines</h2>
+                    <h4 class='h4'>
+                    HTML, CSS, Webflow</h4>
+                    <div class='coding-links-wrap'>
+                        <a href='https://pw91.github.io/Natural-lines' target='_blank' class='coding-link'>Site</a>
+                        <a href='https://github.com/PW91/Natural-lines' target='_blank' class='coding-link'>Repo</a>
                     </div>
                 </div>
-            </a>
-            <a href='https://pw91.github.io/Furry-game/' target='_blank' class='coding-link'>
-                <div class='coding-wrap'>
-                    <div class='coding-img-wrap'>
-                        <img src='images/coding_3.png' class='coding-img'/>
-                    </div>
-                    <div class='coding-text-wrap'>
-                        <h2 class='h2'>Furry Game</h2>
-                        <h4 class='h4'>
-                        JavaScript</h2>
+            </div>   
+            <div class='coding-wrap'>
+                <div class='coding-img-wrap'>
+                    <img src='images/coding_3.png' class='coding-img'/>
+                </div>
+                <div class='coding-text-wrap'>
+                    <h2 class='h2'>Furry Game</h2>
+                    <h4 class='h4'>
+                    JavaScript</h4>
+                    <div class='coding-links-wrap'>
+                        <a href='https://pw91.github.io/Furry-game' target='_blank' class='coding-link'>Site</a>
+                        <a href='https://github.com/PW91/Furry-game' target='_blank' class='coding-link'>Repo</a>
                     </div>
                 </div>
-            </a>
+            </div>
         </div>
         <div class='slide slide-contact'>
             <img src='images/contact_bw.png' class='contact-img'/>
