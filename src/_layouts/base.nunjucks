@@ -18,6 +18,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="{{baseUrl}}styles/main.css"/>
     <link rel="shortcut icon" href="favicon.ico">
+    <meta property="og:title" content="Przemyslaw Wieteska">
+    <meta property="og:description" content="Hello. I am Przemyslaw. I like to code.">
+    <meta property="og:image" content="{{baseUrl}}images/hello.png">
+    <meta property="og:url" content="http://przemyslaw.codes">
+    <meta name="twitter:card" content="summary_large_image">
+
+
     {% block stylesheets %}{% endblock %}
 
   </head>
