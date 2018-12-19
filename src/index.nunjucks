@@ -192,24 +192,24 @@
         </div>
         <div class='slide slide-exp'>
             <div class='all-job-photos-wrap'>
-                <a href='images/at_job_1.jpg' class='for-glightbox'>
+                <a href='images/during_job_1.jpg' class='for-glightbox'>
                     <div class='job-img-wrap job-img-wrap-1'>
-                        <img src='images/at_job_1.jpg' class='at-job-img'/>
+                        <img src='images/during_job_1.jpg' class='at-job-img'/>
                     </div>
                 </a>
-                <a href='images/at_job_2.jpg' class='for-glightbox'>
+                <a href='images/during_job_2.jpg' class='for-glightbox'>
                     <div class='job-img-wrap job-img-wrap-2'>
-                        <img src='images/at_job_2.jpg' class='at-job-img'/>
+                        <img src='images/during_job_2.jpg' class='at-job-img'/>
                     </div>
                 </a>
-                <a href='images/at_job_3.jpg' class='for-glightbox'>
+                <a href='images/during_job_3.jpg' class='for-glightbox'>
                     <div class='job-img-wrap job-img-wrap-3'>
-                        <img src='images/at_job_3.jpg' class='at-job-img'/>
+                        <img src='images/during_job_3.jpg' class='at-job-img'/>
                     </div>
                 </a>
-                <a href='images/at_job_4.jpg' class='for-glightbox'>
+                <a href='images/during_job_4.jpg' class='for-glightbox'>
                     <div class='job-img-wrap job-img-wrap-4'>
-                        <img src='images/at_job_4.jpg' class='at-job-img'/>
+                        <img src='images/during_job_4.jpg' class='at-job-img'/>
                     </div>
                 </a>
             </div>
