@@ -138,6 +138,10 @@
                     <img src='images/github.png'/>
                     </a>
                 </div>
+                <div class='leisure-wrap'>
+                <p class='p'>For the less formal ending, sample of my <span class='bold'>leisure activities</span>: music mixing!</p>
+                <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&hide_artwork=1&feed=%2Fpsz_emo%2F13-in-ten%2F" frameborder="0" ></iframe>
+                </div>
                 <div class='copyright-wrap'>
                     <h6 class='h6'>Design &amp; development<br/>by Przemyslaw Wieteska.</h6>
                 </div>

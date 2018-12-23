@@ -501,6 +501,10 @@ body {
   margin-top: 3vw;
 }
 
+.leisure-wrap {
+  margin-top: 3vw;
+}
+
 @media (max-width: 991px) {
   // TYPO:
 
@@ -785,5 +789,9 @@ body {
 
   .contact-img {
     top: -10vw;
+  }
+
+  .leisure-wrap {
+    margin-top: 8vw;
   }
 }
